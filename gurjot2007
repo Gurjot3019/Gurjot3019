@@ -1,0 +1,21 @@
+git --version
+
+git config --global user.name "Gurjot Singh"
+git config --global user.email "gurjot@example.com"
+
+mkdir myproject
+cd myproject
+
+git init
+
+echo "Hello Git" > readme.txt
+
+git status
+
+git add readme.txt
+
+git status
+
+git commit -m "Initial commit with readme"
+
+git log
